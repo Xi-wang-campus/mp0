@@ -1,1 +1,67 @@
-/* Your CSS here. */
+/*Your CSS Code*/
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.page {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+}
+
+
+.card {
+  width: 820px;
+  max-width: 92vw;
+  background: #6a6a6a;
+  color: #ffffff;
+  padding: 34px 36px;       
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;   
+  align-items: center;     
+  gap: 12px;                
+  text-align: center;       
+  box-sizing: border-box;
+}
+
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 0;         
+}
+
+
+.name  { font-weight: 700;  margin: 8px 0; }
+.email { margin: 0; }
+
+
+.rf a {
+  color: #b9d6ff;
+  text-decoration: none;
+}
+.rf a:hover { text-decoration: underline; }
+
+
+.bio {
+  width: 100%;              
+  text-align: left;         
+  line-height: 1.5;
+}
